@@ -20,7 +20,7 @@
 [ShErWooD-ForEsd](https://github.com/ShErWooD-ForEsd/Library-Book-Due-Checker.git)
 
 ## Screenshot of homepage
-![Library Book Due Checker](addfilename.gif)
+![Library Book Due Checker](screenshot.jpeg)
 
 ## Markdown Cheat Sheet
 [cheatsheet](https://www.markdownguide.org/cheat-sheet/)
