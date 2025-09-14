@@ -20,13 +20,13 @@ function run_date_form()
         echo "RETURNED - " . $return_date . "<br>";
         echo "DUE - " . $due_date . "<br>";
         echo "<br><u>Book is due in: </u>";
-        print($interval->format('<u>%d days!</u>'));
+        print($interval->format('<u>%d days, %m months, %y years!</u>'));
     }
     if ($due_string < $return_string) {
         echo "RETURNED - " . $return_date . "<br>";
         echo "DUE - " . $due_date . "<br>";
         echo "<br><u>Book is overdue by: </u>";
-        print($interval->format('<u>%d days!</u>'));
+        print($interval->format('<u>%d days, %m months, %y years!</u>'));
     }
     if ($date2 == $date1) {
         echo "RETURNED - " . $return_date . "<br>";
