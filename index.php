@@ -5,7 +5,6 @@ Due: Monday, 9/15/2025
 ------------------------>
 <?php
 include "functions.php";
-include "form.php";
 ?>
 
 <!DOCTYPE html>
@@ -33,9 +32,6 @@ include "form.php";
             <input type="submit" value="Submit" class="btn btn-dark">
         </form>
     </div>
-
-    
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
