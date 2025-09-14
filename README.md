@@ -21,6 +21,3 @@
 
 ## Screenshot of homepage
 ![Library Book Due Checker](img/screenshot.jpeg)
-
-## Markdown Cheat Sheet
-[cheatsheet](https://www.markdownguide.org/cheat-sheet/)
