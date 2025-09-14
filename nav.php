@@ -18,17 +18,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Library Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Library Home&nbsp;<i class="fa-solid fa-bookmark"></i>&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Subject Categories</a>
+                        <a class="nav-link" href="#">Subject Categories&nbsp;<i class="fa-solid fa-book"></i>&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Special Events</a>
+                        <a class="nav-link" href="#">Special Events&nbsp;<i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Contact Us</a>
+                        <a class="nav-link" href="#">Contact Us&nbsp;<i class="fa-solid fa-envelope"></i></a>
                     </li>
+
                 </ul>
             </div>
         </div>
