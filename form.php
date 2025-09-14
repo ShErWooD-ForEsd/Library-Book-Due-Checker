@@ -3,30 +3,29 @@ Library Book Due Checker
 Name: Elizabeth Sherwood
 Due: Monday, 9/15/2025
 ------------------------>
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-include "functions.php";
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-//return date brought in and show in string & UNIX format
-$return_date = $_GET['returnDate'];
-$return_stamp = strtotime($return_date);
-echo ($return_date . "\n" . $return_stamp . "<br>");
+</head>
 
-//due date brought in and show in string & UNIX format
-$due_date = $_GET['dueDate'];
-$due_stamp = strtotime($due_date);
-echo ($due_date . "\n" . $due_stamp . "<br>");
+<body>
+    <div class="text-bg-light p-5 mt-2 fs-3">
+        <form action="" method="Get">
+            <label for="returnDate">Return Date:&nbsp;</label>
+            <input type="date" id="returnDate" name="returnDate"><br><br>
+            <lable for="dueDate">Due Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+            <input type="date" id="dueDate" name="dueDate"><br><br><br>
+            <input type="submit" value="Submit" class="btn btn-secondary btn-outline-light">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+</body>
 
-
-    // if ($return_stamp < $due_stamp) {
-    //     echo "Book on time";
-    // }
-    // if ($return_stamp > $due_stamp) {
-    //     echo "Book is late";
-    // } else if ($return_stamp == $due_stamp) {
-    //     echo "Book is due today";}
-
-
-
-?>
+</html>
