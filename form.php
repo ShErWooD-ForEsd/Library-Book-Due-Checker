@@ -25,7 +25,7 @@ Due: Monday, 9/15/2025
             <input type="date" id="returnDate" name="returnDate"><br><br>
             <lable for="dueDate">Due Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
             <input type="date" id="dueDate" name="dueDate"><br><br><br>
-            <input type="submit" value="Submit" class="btn btn-secondary btn-outline-light">
+            <input type="submit" value="submit" class="btn btn-secondary btn-outline-light" name="submit">
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
